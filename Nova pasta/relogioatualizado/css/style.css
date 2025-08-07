@@ -1,0 +1,75 @@
+@import url('/js/script.js');
+
+@font-face {
+    font-family: relogio;
+    src: url('/fonts/digital-7.ttf');
+}
+
+body{
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.central{
+    width: 450px;
+    border: 1px solid rgba(255, 255, 255, 0.151);
+    border-radius: 20px ;
+    box-shadow: 2px 2px 15px rgba(255, 255, 255, 0.151);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.central div{
+    background: rgb(0, 0, 0);
+    color: whitesmoke;
+    font-size: 85px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 15px;
+    width: 100px;
+}
+
+.central span{
+    color: rgb(255, 255, 255);
+    font-size: 85px;
+    font-family: relogio;
+}
+
+.central p{
+    color: rgb(255, 255, 255);
+    font-family: relogio;
+}
+
+.saudacao{
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    flex-direction: column;
+    border-radius: 20px ;
+    box-shadow: 2px 2px 15px rgba(255, 255, 255, 0.151);
+}
+
+.saudacao p{
+    font-size: 30px;
+}
+.saudacao div span{
+    font-size: 30px;
+}
+
+.dia{
+    background: linear-gradient(orange, red);
+}
+.noite{
+    background: linear-gradient(darkblue, black);
+}
