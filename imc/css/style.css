@@ -1,0 +1,51 @@
+body{
+    height: 100dvh;
+    background: url('/images/dumbbells-fitness-gym-4k_1540063263-2048x1152.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    font-size: 40px;
+}
+.central{
+    width: 400px;
+    background: rgba(112, 112, 112, 0.473);
+    padding: 20px;
+    border-radius: 20px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 3px 3px 18px rgb(0, 0, 0);
+    border: 2px solid black;
+}
+
+.central input{
+    width: 200px;
+    height: 30px;
+    border-radius: 6px;
+    border: 2px solid black;
+}
+
+.central button{
+    width: 120px;
+    height: 30px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.central p{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    font-weight: bold;
+}

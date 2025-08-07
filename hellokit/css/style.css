@@ -1,0 +1,48 @@
+h1{
+    text-align: center;
+    color:rgb(255, 255,255);
+    font-size: 50px;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: rgb(255, 56, 132);
+    font-family: cursive;
+}
+
+h2{
+    margin: auto;
+    text-align: center;
+    color: rgb(255, 255,255);
+    font-size: 50px;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: rgb(255, 56, 132);
+    font-family: cursive;
+}
+
+hr{
+    width: 50%;
+    height: 15px;
+    background-color: deeppink;
+    border: 2px solid rgb(170, 12, 91)
+}
+
+p{
+    width: 47%;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+}
+
+img{
+    height: 450px;
+}
+
+.fotos{
+    width: fit-content;
+    margin: auto;
+}
+
+video{
+    width: 50%;
+    display: block;
+    margin: auto;
+}

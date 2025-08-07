@@ -1,0 +1,46 @@
+@font-face {
+    font-family: polar;
+    src: url('font/Road_Rage.otf');
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+    background:url('/images/logoswallpaper.jpg') ;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.central{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    background: rgba(245, 245, 245, 0.103);
+    border-radius: 20px;
+    padding: 25px;
+    gap: 7px;
+    box-shadow: 2px 2px 12px black;
+    flex-direction: column;
+}
+
+#ftx{
+    height: 400px;
+
+}
+
+.central .botoes button{
+    background-color: rgb(20, 20, 20);
+    color: rgb(255, 255, 255);
+    width: fit-content;
+    border: none;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bolder;
+    font-family: polar;
+    
+}

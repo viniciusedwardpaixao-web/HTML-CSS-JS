@@ -1,0 +1,66 @@
+@font-face {
+    font-family: prova1;
+    src: url('/font/Drawliner.otf');
+}
+
+body{
+    background: url('/images/fundo2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100dvh;
+}
+
+.central{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px black;
+    gap: 20px;
+    padding: 20px;
+    flex-direction: column;
+    background: rgba(252, 247, 247, 0.349);
+    width: 1500px;
+    width: fit-content;
+    float:left;
+    margin-top:10px;
+
+}
+
+.central .botoes button{
+    background-color: rgba(34, 32, 32, 0.473);
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: prova1 ;
+    color: rgb(0, 0, 0);
+    border: none;
+    font-weight: bolder;
+    transition: 0.8s;
+}
+
+.central .botoes button:hover{
+    transform: scale(0.8);
+}
+
+#imgtrocar{
+    width: 400px;
+    border-radius: 20px;
+}
+
+.central p{
+    font-size: 15px;
+    font-family: prova1;
+    background-color: rgba(154, 152, 160, 0);
+    color: rgb(10, 10, 90);
+    float:left;
+    max-width:500px;
+    margin-left:10px;
+
+
+}

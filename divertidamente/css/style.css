@@ -1,0 +1,35 @@
+body{
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    
+}
+
+#silhueta{
+    height: 400px;
+}
+
+.central{
+    width: fit-content;
+    background: white;
+    border-radius: 30px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    box-shadow: 1px 1px 12px black;
+}
+
+.central .botoes button{
+    background-color: rgb(96, 1, 91);
+    color: whitesmoke;
+    width: fit-content;
+    border: none;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
